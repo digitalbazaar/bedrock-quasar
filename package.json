@@ -1,0 +1,30 @@
+{
+  "name": "bedrock-quasar",
+  "version": "0.0.1",
+  "dependencies": {
+    "quasar-framework": "^0.15.10"
+  },
+  "bedrock": {
+    "browserDependencies": [
+      "quasar-framework"
+    ],
+    "manifest": {
+      "quasar-framework": {
+        "main": "dist/umd/quasar.mat.umd.js",
+        "style": "dist/umd/quasar.mat.css"
+      }
+    },
+    "webpack": {
+      "quasar-framework": {
+        "resolve": {
+          "alias": {
+            "quasar-framework": "dist/umd/quasar.mat.umd.js"
+          }
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}
