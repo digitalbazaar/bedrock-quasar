@@ -5,9 +5,7 @@
     "quasar-framework": "^0.15.10"
   },
   "bedrock": {
-    "browserDependencies": [
-      "quasar-framework"
-    ],
+    "browserDependencies": "all",
     "manifest": {
       "quasar-framework": {
         "main": "dist/umd/quasar.mat.umd.js",
@@ -18,7 +16,7 @@
       "quasar-framework": {
         "resolve": {
           "alias": {
-            "quasar-framework": "dist/umd/quasar.mat.umd.js"
+            "quasar-framework$": "dist/umd/quasar.mat.umd.js"
           }
         }
       }
