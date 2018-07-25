@@ -1,7 +1,9 @@
 {
   "name": "bedrock-quasar",
+  "main": "index.js",
   "version": "0.0.1",
   "dependencies": {
+    "css-vars-ponyfill": "^1.8.0",
     "quasar-framework": "^0.15.10"
   },
   "bedrock": {
