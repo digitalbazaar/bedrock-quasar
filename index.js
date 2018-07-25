@@ -1,17 +1,21 @@
-import cssVars from 'css-vars-ponyfill';
-
-const api = {};
-
-api.theme = ({Quasar, brand}) => {
+export async function theme({Quasar, brand}) {
   const variables = {};
   Object.keys(brand).forEach(colorName => {
     Quasar.utils.colors.setBrand(colorName, brand[colorName]);
     variables[`q-color-${colorName}`] = brand[colorName];
   });
-  // check for IE11
-  if(!!window.MSInputMethodContext && !!document.documentMode)  {
+  if(isIE11()) {
+    const cssVars = (await import('css-vars-ponyfill')).default;
     cssVars({variables});
   }
-};
+}
 
-export default api;
+export async function supportIE11() {
+  if(isIE11()) {
+    await import('quasar-framework/dist/umd/quasar.ie.polyfills.umd.min');
+  }
+}
+
+function isIE11() {
+  return !!window.MSInputMethodContext && !!document.documentMode;
+}
