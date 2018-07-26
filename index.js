@@ -6,7 +6,6 @@
 
 export async function theme({Quasar, brand}) {
   let fn;
-
   const variables = {};
 
   if(isIE11()) {
@@ -26,6 +25,8 @@ export async function theme({Quasar, brand}) {
   });
 
   if(isIE11()) {
+    addCssVarsElement();
+
     // remove monkey-patch and apply variables
     CSSStyleDeclaration.prototype.setProperty = fn;
     const cssVars = (await import('css-vars-ponyfill')).default;
@@ -46,4 +47,10 @@ export async function supportIE11() {
 
 function isIE11() {
   return !!window.MSInputMethodContext && !!document.documentMode;
+}
+
+function addCssVarsElement() {
+  const elem = document.createElement('style');
+  elem.setAttribute('id', 'css-vars-ponyfill');
+  document.head.appendChild(elem);
 }
