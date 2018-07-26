@@ -12,7 +12,7 @@ export async function theme({Quasar, brand}) {
 
 export async function supportIE11() {
   if(isIE11()) {
-    await import('quasar-framework/dist/umd/quasar.ie.polyfills.umd.min');
+    await import('quasar-framework/dist/umd/quasar.ie.polyfills.umd.min.js');
   }
 }
 
