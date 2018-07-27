@@ -19,6 +19,7 @@
     "url": "https://github.com/digitalbazaar/bedrock-quasar/issues"
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-quasar",
+  "license": "SEE LICENSE IN LICENSE.md",
   "main": "index.js",
   "dependencies": {
     "css-vars-ponyfill": "^1.8.0",
