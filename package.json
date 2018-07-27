@@ -1,7 +1,25 @@
 {
   "name": "bedrock-quasar",
-  "main": "index.js",
   "version": "0.0.1",
+  "description": "Quasar Framework support for Bedrock",
+  "keywords": [
+    "bedrock",
+    "quasar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-quasar"
+  },
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-quasar/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-quasar",
+  "main": "index.js",
   "dependencies": {
     "css-vars-ponyfill": "^1.8.0",
     "quasar-framework": "^0.15.10"
