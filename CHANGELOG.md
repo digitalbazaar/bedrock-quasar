@@ -1,5 +1,7 @@
 # bedrock-quasar ChangeLog
 
+## 1.0.0 - 2018-08-08
+
 ## Added
 - Depend on firefox-iframe-getcomputedstyle.
 
