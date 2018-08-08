@@ -31,7 +31,10 @@
     "manifest": {
       "quasar-framework": {
         "main": "dist/umd/quasar.mat.umd.js",
-        "style": "dist/umd/quasar.mat.css"
+        "style": "dist/umd/quasar.mat.css",
+        "dependencies": {
+          "firefox-iframe-getcomputedstyle": ""
+        }
       }
     },
     "webpack": {
