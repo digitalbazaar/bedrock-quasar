@@ -1,9 +1,9 @@
 # bedrock-quasar ChangeLog
 
-## 1.0.0 - TBD
+## 2.0.0 - 2018-09-21
 
-## Added
-- Update quasar-framework to v0.17
+## Changed
+- **BREAKING** - Update quasar-framework to v0.17.
 
 ## 1.0.0 - 2018-08-08
 
