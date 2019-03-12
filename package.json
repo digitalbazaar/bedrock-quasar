@@ -24,25 +24,25 @@
   "dependencies": {
     "css-vars-ponyfill": "^1.8.0",
     "firefox-iframe-getcomputedstyle": "^1.0.0",
-    "quasar-framework": "^0.17.14"
+    "quasar": "^1.0.0-beta.0"
   },
   "bedrock": {
     "browserDependencies": "all",
     "manifest": {
-      "quasar-framework": {
-        "main": "dist/umd/quasar.mat.umd.js",
-        "module": "dist/umd/quasar.mat.umd.js",
-        "style": "dist/umd/quasar.mat.css",
+      "quasar": {
+        "main": "dist/quasar.umd.js",
+        "module": "dist/quasar.umd.js",
+        "style": "dist/quasar.css",
         "dependencies": {
           "firefox-iframe-getcomputedstyle": ""
         }
       }
     },
     "webpack": {
-      "quasar-framework": {
+      "quasar": {
         "resolve": {
           "alias": {
-            "quasar-framework$": "dist/umd/quasar.mat.umd.js"
+            "quasar$": "dist/quasar.umd.js"
           }
         }
       }
