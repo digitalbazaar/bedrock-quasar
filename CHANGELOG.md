@@ -1,6 +1,6 @@
 # bedrock-quasar ChangeLog
 
-## 3.0.0 - TBD
+## 3.0.0 - 2019-04-09
 
 ## Changed
 - **BREAKING** - Upgrade quasar-framework to v1.0.0-beta.
