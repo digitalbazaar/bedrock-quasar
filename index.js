@@ -38,7 +38,7 @@ export async function supportIE11() {
   if(!isIE11()) {
     return;
   }
-  await import('quasar-framework/dist/umd/quasar.ie.polyfills.umd.min.js');
+  await import('quasar/dist/quasar.ie.polyfills.umd.min.js');
 
   // TODO: consider monkey-patching CSSStyleDeclaration.prototype.setProperty
   // here just once -- and then use render fn to call cssVars() when new
