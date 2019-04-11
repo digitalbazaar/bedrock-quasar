@@ -1,5 +1,10 @@
 # bedrock-quasar ChangeLog
 
+## 3.1.0 - 2019-xx-xx
+
+## Changed
+- Upgrade path to ie-compat file.
+
 ## 3.0.0 - 2019-04-09
 
 ## Changed
