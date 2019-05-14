@@ -1,5 +1,8 @@
 # bedrock-quasar ChangeLog
 
+### Changed
+- Add `webpackChunkName` to dynamic imports.
+
 ## 3.1.1 - 2019-09-17
 
 ### Fixed
