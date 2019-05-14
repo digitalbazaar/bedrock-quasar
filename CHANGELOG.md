@@ -2,6 +2,7 @@
 
 ### Changed
 - Add `webpackChunkName` to dynamic imports.
+- Import CSS for bundler.
 
 ## 3.1.1 - 2019-09-17
 
