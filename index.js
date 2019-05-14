@@ -4,6 +4,9 @@
 /* global CSSStyleDeclaration, document, window */
 'use strict';
 
+import 'animate.css';
+import 'quasar/dist/quasar.css';
+
 export async function theme({Quasar, brand}) {
   let fn;
   const variables = {};
