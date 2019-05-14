@@ -29,7 +29,9 @@ export async function theme({Quasar, brand}) {
 
     // remove monkey-patch and apply variables
     CSSStyleDeclaration.prototype.setProperty = fn;
-    const cssVars = (await import('css-vars-ponyfill')).default;
+    const cssVars = (await import(
+      /* webpackChunkName: "CssVarsPonyfill" */
+      'css-vars-ponyfill')).default;
     cssVars({variables});
   }
 }
@@ -38,7 +40,9 @@ export async function supportIE11() {
   if(!isIE11()) {
     return;
   }
-  await import('quasar/dist/quasar.ie.polyfills.umd.min.js');
+  await import(
+    /* webpackChunkName: "QuasarIePolyfills" */
+    'quasar/dist/quasar.ie.polyfills.umd.min.js');
 
   // TODO: consider monkey-patching CSSStyleDeclaration.prototype.setProperty
   // here just once -- and then use render fn to call cssVars() when new
