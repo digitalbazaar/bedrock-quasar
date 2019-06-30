@@ -4,6 +4,9 @@
 /* global CSSStyleDeclaration, document, window */
 'use strict';
 
+// NOTE: This *must* be loaded *before* 'quasar'.
+import 'firefox-iframe-getcomputedstyle';
+
 import 'animate.css';
 import 'quasar/dist/quasar.css';
 
