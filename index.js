@@ -7,6 +7,8 @@
 import 'animate.css';
 import 'quasar/dist/quasar.css';
 
+import './main.css';
+
 export async function theme({Quasar, brand}) {
   let fn;
   const variables = {};
