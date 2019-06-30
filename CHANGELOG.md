@@ -4,6 +4,8 @@
 - Add `webpackChunkName` to dynamic imports.
 - Import CSS for bundler.
 - Load Roboto font via CSS by default.
+- Load Firefox polyfill by default. Note that this package **must** be loaded
+  before `quasar` for this to work.
 
 ## 3.1.1 - 2019-09-17
 
