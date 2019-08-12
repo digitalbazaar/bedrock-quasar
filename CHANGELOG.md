@@ -1,6 +1,8 @@
 # bedrock-quasar ChangeLog
 
 ### Changed
+- Update dependencies.
+  - Using latest Quasar 1.x.
 - Add `webpackChunkName` to dynamic imports.
 - Import CSS for bundler.
 - Load Roboto font via CSS by default.
