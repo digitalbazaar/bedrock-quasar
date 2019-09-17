@@ -1,5 +1,11 @@
 # bedrock-quasar ChangeLog
 
+## 3.1.1 - 2019-09-17
+
+### Fixed
+- Pin Quasar to 1.1.0 to prevent less compilation failure caused by
+  quasar@1.1.1.
+
 ## 3.1.0 - 2019-04-11
 
 ## Changed
