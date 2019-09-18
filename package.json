@@ -24,7 +24,7 @@
   "dependencies": {
     "css-vars-ponyfill": "^1.8.0",
     "firefox-iframe-getcomputedstyle": "^1.0.0",
-    "quasar": "1.1.0"
+    "quasar": "1.1.2"
   },
   "bedrock": {
     "browserDependencies": "all",
