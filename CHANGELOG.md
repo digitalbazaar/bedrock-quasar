@@ -9,6 +9,9 @@
 - Load Firefox polyfill by default. Note that this package **must** be loaded
   before `quasar` for this to work.
 
+### Removed
+- Overrides unneeded with bedrock-views 7 + bedrock-webpack 3.
+
 ## 3.1.1 - 2019-09-17
 
 ### Fixed
