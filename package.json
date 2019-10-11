@@ -28,17 +28,6 @@
     "quasar": "^1.2.1"
   },
   "bedrock": {
-    "browserDependencies": "all",
-    "manifest": {
-      "quasar": {
-        "main": "dist/quasar.umd.js",
-        "module": "dist/quasar.umd.js",
-        "style": "dist/quasar.css",
-        "dependencies": {
-          "firefox-iframe-getcomputedstyle": ""
-        }
-      }
-    },
     "webpack": {
       "quasar": {
         "resolve": {
