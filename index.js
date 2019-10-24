@@ -38,7 +38,7 @@ export async function theme({Quasar, brand}) {
     // remove monkey-patch and apply variables
     CSSStyleDeclaration.prototype.setProperty = fn;
     const cssVars = (await import(
-      /* webpackChunkName: "CssVarsPonyfill" */
+      /* webpackChunkName: "css-vars-ponyfill" */
       'css-vars-ponyfill')).default;
     cssVars({variables});
   }
