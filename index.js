@@ -49,7 +49,7 @@ export async function supportIE11() {
     return;
   }
   await import(
-    /* webpackChunkName: "QuasarIePolyfills" */
+    /* webpackChunkName: "quasar.ie.polyfills" */
     'quasar/dist/quasar.ie.polyfills.umd.min.js');
 
   // TODO: consider monkey-patching CSSStyleDeclaration.prototype.setProperty
