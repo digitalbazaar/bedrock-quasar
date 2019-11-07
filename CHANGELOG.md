@@ -12,6 +12,9 @@
 ### Removed
 - Overrides unneeded with bedrock-views 7 + bedrock-webpack 3.
 
+### Added
+- Quasar based override for `bedrock-vue` base error page.
+
 ## 3.1.1 - 2019-09-17
 
 ### Fixed

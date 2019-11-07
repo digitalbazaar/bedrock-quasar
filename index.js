@@ -12,6 +12,13 @@ import 'quasar/dist/quasar.css';
 
 import './main.css';
 
+import Vue from 'vue';
+import {config} from 'bedrock-vue';
+config.ui.components['br-error-base'] = 'br-quasar-error-base';
+Vue.component('br-quasar-error-base', () => import(
+  /* webpackChunkName: "BrQuasarErrorBase" */
+  './BrQuasarErrorBase.vue'));
+
 export async function theme({Quasar, brand}) {
   let fn;
   const variables = {};
