@@ -1,5 +1,7 @@
 # bedrock-quasar ChangeLog
 
+## 4.0.0 - 2019-11-08
+
 ### Changed
 - Update dependencies.
   - Using latest Quasar 1.x.
