@@ -28,7 +28,7 @@
     "quasar": "^1.4.0"
   },
   "peerDependencies": {
-    "bedrock-vue": "github:digitalbazaar/bedrock-vue#errors"
+    "bedrock-vue": "^2.0.0"
   },
   "bedrock": {
     "webpack": {
