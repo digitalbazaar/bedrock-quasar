@@ -5,10 +5,12 @@
     <slot name="contact" />
   </q-page>
 </template>
+
 <script>
 export default {
   name: 'BrQuasarErrorBase'
 };
 </script>
+
 <style>
 </style>
