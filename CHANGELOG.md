@@ -1,6 +1,6 @@
 # bedrock-quasar ChangeLog
 
-## 6.0.1 - 2022-04-xx
+## 6.0.1 - 2022-04-10
 
 ### Fixed
 - Fix imports.
