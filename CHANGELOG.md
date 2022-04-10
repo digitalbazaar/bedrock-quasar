@@ -1,9 +1,13 @@
 # bedrock-quasar ChangeLog
 
-## 5.0.0 - 2022-04-10
+## 6.0.0 - 2022-04-xx
 
 ### Changed
 - **BREAKING**: Rename package to `@bedrock/quasar`.
+
+## 5.0.0 - 2022-04-10
+
+### Changed
 - **BREAKING**: Convert to module (ESM).
 
 ## 4.0.0 - 2019-11-08

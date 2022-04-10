@@ -1,5 +1,5 @@
 {
-  "name": "bedrock-quasar",
+  "name": "@bedrock/quasar",
   "version": "5.0.1-0",
   "type": "module",
   "description": "Quasar Framework support for Bedrock",
