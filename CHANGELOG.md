@@ -6,6 +6,9 @@
 - **BREAKING**: Remove IE11 support.
   - To upgrade, remove any calls to `supportIE11()`.
 
+### Changed
+- Update dependencies.
+
 ## 6.0.1 - 2022-04-10
 
 ### Fixed

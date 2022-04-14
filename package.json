@@ -33,7 +33,7 @@
   "dependencies": {
     "animate.css": "^3.7.2",
     "firefox-iframe-getcomputedstyle": "^1.0.0",
-    "quasar": "^1.4.0"
+    "quasar": "^1.18.10"
   },
   "peerDependencies": {
     "@bedrock/vue": "^3.0.0",
