@@ -1,5 +1,11 @@
 # bedrock-quasar ChangeLog
 
+## 7.0.0 - 2022-xx-xx
+
+### Removed
+- **BREAKING**: Remove IE11 support.
+  - To upgrade, remove any calls to `supportIE11()`.
+
 ## 6.0.1 - 2022-04-10
 
 ### Fixed

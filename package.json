@@ -32,7 +32,6 @@
   ],
   "dependencies": {
     "animate.css": "^3.7.2",
-    "css-vars-ponyfill": "^2.1.2",
     "firefox-iframe-getcomputedstyle": "^1.0.0",
     "quasar": "^1.4.0"
   },
