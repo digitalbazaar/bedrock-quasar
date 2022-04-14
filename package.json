@@ -4,6 +4,9 @@
   "type": "module",
   "description": "Quasar Framework support for Bedrock",
   "module": "./lib/index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "keywords": [
     "bedrock",
     "quasar"
@@ -35,6 +38,12 @@
   },
   "peerDependencies": {
     "@bedrock/vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-digitalbazaar": "^2.8.0",
+    "eslint-plugin-jsdoc": "^39.2.1",
+    "eslint-plugin-vue": "^8.6.0"
   },
   "bedrock": {
     "webpack": {
