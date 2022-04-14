@@ -36,7 +36,8 @@
     "quasar": "^1.4.0"
   },
   "peerDependencies": {
-    "@bedrock/vue": "^3.0.0"
+    "@bedrock/vue": "^3.0.0",
+    "vue": "^2.6.12"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
