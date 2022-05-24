@@ -32,12 +32,12 @@
   ],
   "dependencies": {
     "animate.css": "^3.7.2",
-    "firefox-iframe-getcomputedstyle": "^1.0.0",
-    "quasar": "^1.18.10"
+    "firefox-iframe-getcomputedstyle": "^1.0.0"
   },
   "peerDependencies": {
     "@bedrock/vue": "^3.0.0",
-    "vue": "^2.6.12"
+    "quasar": "^2.7.1",
+    "vue": "^3.2.36"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
