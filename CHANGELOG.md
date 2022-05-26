@@ -1,5 +1,10 @@
 # bedrock-quasar ChangeLog
 
+## 8.0.0 - 2022-05-xx
+
+### Changed
+- **BREAKING**: Require Quasar 2 and Vue 3.
+
 ## 7.0.0 - 2022-04-14
 
 ### Removed
