@@ -4,6 +4,11 @@
 
 ### Changed
 - **BREAKING**: Require Quasar 2 and Vue 3.
+- **BREAKING**: Update to `animate.css@4` for Quasar 2.
+
+### Removed
+- **BREAKING**: Remove patch for CSS getComputedStyle for very old
+  Firefox <= 62.
 
 ## 7.0.0 - 2022-04-14
 
