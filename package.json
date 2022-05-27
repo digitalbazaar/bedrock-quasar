@@ -46,6 +46,13 @@
   },
   "bedrock": {
     "webpack": {
+      "animate.css": {
+        "resolve": {
+          "alias": {
+            "animate.css": "animate.compat.css"
+          }
+        }
+      },
       "quasar": {
         "resolve": {
           "alias": {
