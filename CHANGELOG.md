@@ -1,5 +1,11 @@
 # bedrock-quasar ChangeLog
 
+## 8.0.1 - 2022-05-xx
+
+### Fixed
+- Make `animate.css` and `quasar` regular dependencies to resolve
+  build issues.
+
 ## 8.0.0 - 2022-05-26
 
 ### Changed
