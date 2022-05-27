@@ -30,10 +30,12 @@
     "components/*",
     "style/*"
   ],
+  "dependencies": {
+    "animate.css": "^4.0.0",
+    "quasar": "^2.7.1"
+  },
   "peerDependencies": {
     "@bedrock/vue": "^4.0.0",
-    "animate.css": "^4.0.0",
-    "quasar": "^2.7.1",
     "vue": "^3.2.36"
   },
   "devDependencies": {
