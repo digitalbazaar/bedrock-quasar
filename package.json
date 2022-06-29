@@ -4,6 +4,11 @@
   "type": "module",
   "description": "Quasar Framework support for Bedrock",
   "exports": "./lib/index.js",
+  "files": [
+    "lib/**/*.js",
+    "components/**/*.vue",
+    "style/**/*.css"
+  ],
   "scripts": {
     "lint": "eslint ."
   },
@@ -25,11 +30,6 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-quasar",
   "license": "SEE LICENSE IN LICENSE.md",
-  "files": [
-    "lib/*",
-    "components/*",
-    "style/*"
-  ],
   "dependencies": {
     "animate.css": "^4.0.0",
     "quasar": "^2.7.1"
