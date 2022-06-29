@@ -31,11 +31,11 @@
   "homepage": "https://github.com/digitalbazaar/bedrock-quasar",
   "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
-    "animate.css": "^4.0.0",
-    "quasar": "^2.7.1"
+    "animate.css": "^4.1.1",
+    "quasar": "^2.7.3"
   },
   "peerDependencies": {
-    "@bedrock/vue": "^4.0.0",
+    "@bedrock/vue": "github:digitalbazaar/bedrock-vue#convert-to-module",
     "vue": "^3.2.36"
   },
   "devDependencies": {
