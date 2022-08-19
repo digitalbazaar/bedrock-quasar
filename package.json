@@ -35,7 +35,7 @@
     "quasar": "^2.7.3"
   },
   "peerDependencies": {
-    "@bedrock/vue": "github:digitalbazaar/bedrock-vue#convert-to-module",
+    "@bedrock/vue": "^5.0.0",
     "vue": "^3.2.36"
   },
   "devDependencies": {
