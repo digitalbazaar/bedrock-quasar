@@ -8,7 +8,7 @@ module.exports = {
     'digitalbazaar',
     'digitalbazaar/jsdoc',
     'digitalbazaar/module',
-    'digitalbazaar/vue'
+    'digitalbazaar/vue3'
   ],
   ignorePatterns: ['node_modules/']
 };
