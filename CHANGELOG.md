@@ -1,5 +1,13 @@
 # bedrock-quasar ChangeLog
 
+## 9.2.0 - 2023-10-xx
+
+### Changed
+- Update dependencies.
+
+### Fixed
+- Fix quasar import.
+
 ## 9.1.0 - 2024-02-29
 
 ### Changed
