@@ -53,13 +53,6 @@
             "animate.css": "animate.compat.css"
           }
         }
-      },
-      "quasar": {
-        "resolve": {
-          "alias": {
-            "quasar$": "dist/quasar.umd.js"
-          }
-        }
       }
     }
   },
