@@ -1,9 +1,20 @@
 # bedrock-quasar ChangeLog
 
-## 9.2.0 - 2023-10-xx
+## 10.0.0 - 2024-xx-xx
 
 ### Changed
 - Update dependencies.
+- **BREAKING**: Remove bedrock override to use quasar UMD bundle.
+  - Any app using this package and `bedrock-webpack` is effected by this change
+    and may need to update imports due to differences in the UMD vs ESM quasar
+    bundles.
+  - Change `import Quasar from 'quasar';` to `import {Quasar} from 'quasar';`.
+  - Change `import {default as Quasar} from 'quasar';` to `import {Quasar} from
+    'quasar';`.
+  - Change `import {utils} from 'quasar';` to import `utils` used directly such
+    as `import {date, format} from 'quasar';`.
+  - There may be other similar changes. Check that your `quasar` imports are
+    functioning properly.
 
 ### Fixed
 - Fix quasar import.
