@@ -4,6 +4,9 @@
 
 ### Changed
 - Update dependencies.
+- **BREAKING**: Drop support for Node.js < 18.
+- **BREAKING**: Update peer dep `@bedrock/vue` to v6.0 that uses peer dep
+  `@bedrock/web@4.0`.
 - **BREAKING**: Remove bedrock override to use quasar UMD bundle.
   - Any app using this package and `bedrock-webpack` is effected by this change
     and may need to update imports due to differences in the UMD vs ESM quasar

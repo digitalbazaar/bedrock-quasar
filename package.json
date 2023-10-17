@@ -35,7 +35,7 @@
     "quasar": "^2.12.7"
   },
   "peerDependencies": {
-    "@bedrock/vue": "^5.0.1",
+    "@bedrock/vue": "digitalbazaar/bedrock-vue#drop-node-16",
     "vue": "^3.3.4"
   },
   "devDependencies": {
@@ -57,6 +57,6 @@
     }
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   }
 }
