@@ -46,17 +46,6 @@
     "eslint-plugin-unicorn": "^48.0.1",
     "eslint-plugin-vue": "^9.17.0"
   },
-  "bedrock": {
-    "webpack": {
-      "animate.css": {
-        "resolve": {
-          "alias": {
-            "animate.css": "animate.compat.css"
-          }
-        }
-      }
-    }
-  },
   "engines": {
     "node": ">=14"
   }
