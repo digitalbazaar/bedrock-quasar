@@ -23,6 +23,7 @@ module.exports = {
     node: true
   },
   extends: [
+    'plugin:quasar/standard',
     'digitalbazaar',
     'digitalbazaar/jsdoc',
     'digitalbazaar/module',
