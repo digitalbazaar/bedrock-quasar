@@ -32,14 +32,14 @@
   "homepage": "https://github.com/digitalbazaar/bedrock-quasar",
   "dependencies": {
     "animate.css": "^4.1.1",
-    "quasar": "^2.12.7"
+    "quasar": "^2.13.0"
   },
   "peerDependencies": {
     "@bedrock/vue": "^5.0.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
-    "eslint": "^8.50.0",
+    "eslint": "^8.51.0",
     "eslint-config-digitalbazaar": "^5.0.1",
     "eslint-plugin-jsdoc": "^46.8.2",
     "eslint-plugin-quasar": "^1.1.0",
