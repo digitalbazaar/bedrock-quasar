@@ -15,6 +15,9 @@
     as `import {date, format} from 'quasar';`.
   - There may be other similar changes. Check that your `quasar` imports are
     functioning properly.
+- **BREAKING**: Remove `animate.css` `compat` override and use latest style.
+  See the [migration guide](https://animate.style/#migration) for details on
+  updating.
 
 ### Fixed
 - Fix quasar import.
