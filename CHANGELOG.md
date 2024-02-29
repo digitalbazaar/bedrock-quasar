@@ -1,5 +1,10 @@
 # bedrock-quasar ChangeLog
 
+## 9.1.0 - 2024-mm-dd
+
+### Changed
+- Relicense under the Apache-2.0 license.
+
 ## 9.0.0 - 2022-08-19
 
 ### Changed
