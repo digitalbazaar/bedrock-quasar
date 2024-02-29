@@ -1,6 +1,6 @@
 {
   "name": "@bedrock/quasar",
-  "version": "9.0.1-0",
+  "version": "9.1.0",
   "type": "module",
   "description": "Quasar Framework support for Bedrock",
   "license": "Apache-2.0",
