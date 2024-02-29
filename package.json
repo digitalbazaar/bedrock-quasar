@@ -3,6 +3,7 @@
   "version": "9.0.1-0",
   "type": "module",
   "description": "Quasar Framework support for Bedrock",
+  "license": "Apache-2.0",
   "exports": "./lib/index.js",
   "files": [
     "lib/**/*.js",
@@ -29,7 +30,6 @@
     "url": "https://github.com/digitalbazaar/bedrock-quasar/issues"
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-quasar",
-  "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
     "animate.css": "^4.1.1",
     "quasar": "^2.7.3"
