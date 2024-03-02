@@ -2,6 +2,9 @@
 
 ## 10.0.0 - 2024-xx-xx
 
+### Added
+- Add support for Quasar initialization options.
+
 ### Changed
 - Update dependencies.
 - **BREAKING**: Remove bedrock override to use quasar UMD bundle.
@@ -13,6 +16,8 @@
     'quasar';`.
   - Change `import {utils} from 'quasar';` to import `utils` used directly such
     as `import {date, format} from 'quasar';`.
+  - Apps must now import and pass *all* Quasar plugins they use to the
+    `initialize` call in the new `quasarOptions` object.
   - There may be other similar changes. Check that your `quasar` imports are
     functioning properly.
 - **BREAKING**: Remove `animate.css` `compat` override and use latest style.
