@@ -32,7 +32,7 @@
   "homepage": "https://github.com/digitalbazaar/bedrock-quasar",
   "dependencies": {
     "animate.css": "^4.1.1",
-    "quasar": "^2.13.0"
+    "quasar": "^2.14.6"
   },
   "peerDependencies": {
     "@bedrock/vue": "^5.0.1",
