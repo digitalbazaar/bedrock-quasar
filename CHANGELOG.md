@@ -7,6 +7,7 @@
 
 ### Changed
 - Update dependencies.
+- Requires Node.js 18+.
 - **BREAKING**: Remove bedrock override to use quasar UMD bundle.
   - Any app using this package and `bedrock-webpack` is effected by this change
     and may need to update imports due to differences in the UMD vs ESM quasar
