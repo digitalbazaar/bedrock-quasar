@@ -6,6 +6,8 @@
   "license": "Apache-2.0",
   "exports": "./lib/index.js",
   "files": [
+    ".reuse/dep5",
+    "LICENSES/**/*.txt",
     "lib/**/*.js",
     "components/**/*.vue",
     "style/**/*.css"
