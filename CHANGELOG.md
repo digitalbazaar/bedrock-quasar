@@ -1,6 +1,6 @@
 # bedrock-quasar ChangeLog
 
-## 10.0.0 - 2024-xx-xx
+## 10.0.0 - 2024-03-14
 
 ### Added
 - Add support for Quasar initialization options.
