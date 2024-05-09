@@ -1,6 +1,6 @@
 # bedrock-quasar ChangeLog
 
-## 10.0.1 - 2024-05-dd
+## 10.0.1 - 2024-05-09
 
 ### Fixed
 - Lock `quasar` to version `~2.15` to avoid breaking change in `2.16`.
