@@ -1,5 +1,16 @@
 # bedrock-quasar ChangeLog
 
+## 11.0.0 - 2026-09-dd
+
+### Changed
+- **BREAKING**: Require `@bedrock/vue@6`, replacing `@bedrock/vue@5`, in the
+  peer dependency range. This package imports only `config` from it, which is
+  unchanged in v6, so no code changes are needed here or in host apps beyond
+  moving their own `@bedrock/vue` dependency to v6.
+- **BREAKING**: Require `vue@3.5.38` or later, up from `^3.4.21`, to match the
+  range `@bedrock/vue@6` itself requires. An app on an earlier 3.x would
+  otherwise satisfy this package and then fail to resolve `@bedrock/vue`.
+
 ## 10.0.1 - 2024-05-09
 
 ### Fixed
