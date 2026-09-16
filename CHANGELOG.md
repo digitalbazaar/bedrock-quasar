@@ -1,5 +1,22 @@
 # bedrock-quasar ChangeLog
 
+## 11.0.1 - 2026-09-dd
+
+### Fixed
+- Unpin `quasar` from `~2.15.0` (setting it back `^2.15.4` to ensure
+  compatibility with other pinned packages). This unpinning is possible because
+  all quasar components and directives are auto-registered (as they were in
+  `~2.15`) regardless of quasar version. A subsequent major release of
+  this library might eliminate this auto-registration to enable tree-shaking
+  at the cost of requiring top-level applications to register all known
+  components, directives, plugins, etc. An additional API might be introduced
+  to allow individual registration of each of these parts for subsequent
+  installation when quasar is later initialized by the top-level application.
+  This would allow individual modules to take responsibility for what they use,
+  alleviating the need for the top-level application to know all of the needs
+  of its dependencies -- whilst also enabling errors to be raised if there are
+  any conflicts.
+
 ## 11.0.0 - 2026-09-04
 
 ### Changed
