@@ -1,6 +1,6 @@
 # bedrock-quasar ChangeLog
 
-## 11.1.0 - 2026-09-dd
+## 11.1.0 - 2026-09-17
 
 ### Changed
 - Update dev dependencies.
