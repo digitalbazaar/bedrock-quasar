@@ -1,5 +1,5 @@
 /*!
- * Copyright 2024 Digital Bazaar, Inc.
+ * Copyright 2024-2026 Digital Bazaar, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,18 +16,10 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-module.exports = {
-  root: true,
-  env: {
-    browser: true,
-    node: true
-  },
-  extends: [
-    'plugin:quasar/standard',
-    'digitalbazaar',
-    'digitalbazaar/jsdoc',
-    'digitalbazaar/module',
-    'digitalbazaar/vue3'
-  ],
-  ignorePatterns: ['node_modules/']
-};
+import config from '@digitalbazaar/eslint-config/vue3-recommended';
+
+export default [
+  // not yet supported
+  // 'plugin:quasar/standard',
+  ...config
+];

@@ -3,6 +3,7 @@
 ## 11.1.0 - 2026-09-dd
 
 ### Changed
+- Update dev dependencies.
 - Requires Node.js 22+.
 
 ### Fixed
