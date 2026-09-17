@@ -1,6 +1,9 @@
 # bedrock-quasar ChangeLog
 
-## 11.0.1 - 2026-09-dd
+## 11.1.0 - 2026-09-dd
+
+### Changed
+- Requires Node.js 22+.
 
 ### Fixed
 - Unpin `quasar` from `~2.15.0` (setting it back `^2.15.4` to ensure
